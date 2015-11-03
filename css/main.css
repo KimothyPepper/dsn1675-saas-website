@@ -25,3 +25,14 @@
 .nav-check:checked ~ .nav-label {
 	background-color: grey;
 }
+
+.nav-label {
+  display:inline-block;
+  width:40px;
+}
+
+.nav-label img {
+  display:block;
+  width:100%;
+
+}
