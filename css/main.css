@@ -7,7 +7,7 @@
 }
 
 .banner {
-  background-image: url("http://placehold.it/600x200");
+  background-image: url("http://placehold.it/600x400");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -24,6 +24,14 @@
   background-color: lightblue;
   width: 6em;
   padding:1em;
+}
+
+nav li {
+  font-size: 1.2em;
+}
+
+.white{
+  color: white;
 }
 
 .nav-check:checked ~ .nav {
