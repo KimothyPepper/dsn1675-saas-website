@@ -3,18 +3,21 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 100" style="enable-background:new 0 0 200 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#6FCBD8;stroke:#000000;stroke-width:1.6423;stroke-miterlimit:10;}
-	.st1{fill:#3C919A;stroke:#000000;stroke-width:1.6423;stroke-miterlimit:10;}
+	.st0{fill:#CAAC93;stroke:#000000;stroke-width:1.7677;stroke-miterlimit:10;}
+	.st1{fill:#8E745E;stroke:#000000;stroke-width:1.7677;stroke-miterlimit:10;}
 	.st2{fill:none;}
-	.st3{font-family:'AmericanTypewriter-CondensedLight';}
-	.st4{font-size:41.0569px;}
+	.st3{font-family:'AmericanTypewriter-Bold';}
+	.st4{font-size:35.3543px;}
+	.st5{font-size:34.765px;}
 </style>
-<path class="st0" d="M165.6,46.4h-132c-6.6,0-12-5.4-12-12v-16c0-6.6,5.4-12,12-12h132c6.6,0,12,5.4,12,12v16
-	C177.6,41,172.2,46.4,165.6,46.4z"/>
-<path class="st1" d="M182.8,92.4H14.7c-6.6,0-12-5.4-12-12v-22c0-6.6,5.4-12,12-12h168.1c6.6,0,12,5.4,12,12v22
-	C194.8,87,189.4,92.4,182.8,92.4z"/>
-<rect x="24.2" y="56.2" class="st2" width="438.6" height="57.1"/>
-<text transform="matrix(1 0 0 1 24.2168 83.7767)" class="st3 st4">Cookbook</text>
-<rect x="45.7" y="12.3" class="st2" width="438.6" height="57.1"/>
-<text transform="matrix(1 0 0 1 45.667 39.8285)" class="st3 st4">Virtual</text>
+<g>
+	<path class="st0" d="M166.6,48.8H35.4c-6.6,0-12-5.4-12-12V21c0-6.6,5.4-12,12-12h131.2c6.6,0,12,5.4,12,12v15.8
+		C178.6,43.4,173.2,48.8,166.6,48.8z"/>
+	<path class="st1" d="M183.7,94.6H16.6c-6.6,0-12-5.4-12-12V60.8c0-6.6,5.4-12,12-12h167.1c6.6,0,12,5.4,12,12v21.7
+		C195.7,89.2,190.3,94.6,183.7,94.6z"/>
+	<rect x="13.5" y="58.6" class="st2" width="436.2" height="56.8"/>
+	<text transform="matrix(1 0 0 1 13.5286 82.4379)" class="st3 st4">Cookbook</text>
+	<rect x="36.6" y="14.9" class="st2" width="436.2" height="56.8"/>
+	<text transform="matrix(1 0 0 1 36.5872 38.3309)" class="st3 st5">Virtual</text>
+</g>
 </svg>
