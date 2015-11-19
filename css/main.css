@@ -1,5 +1,5 @@
 .lightgray {
-  background-color: lightgray;
+  background-color: #d7783a;
 }
 
 .lightblue {
@@ -21,7 +21,7 @@
 .nav {
 	display: none;
   position: absolute;
-  background-color: lightblue;
+  background-color: #c9ac93;
   width: 6em;
   padding:1em;
 }
