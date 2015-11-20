@@ -14,6 +14,22 @@
 
 }
 
+.banner2 {
+  background-image: url("../images/banner-tour.jpg");
+  background-repeat: no-repeat;
+  background-size:100% auto; ;
+  background-position: center;
+
+}
+
+.banner3 {
+  background-image: url("../images/banner-pricing.jpg");
+  background-repeat: no-repeat;
+  background-size:100% auto; ;
+  background-position: center;
+
+}
+
 .logo {
   width:100px;
 }
