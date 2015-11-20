@@ -16,14 +16,19 @@
 </head>
 <body>
 
-  <header  class="lightgray island-half">
+  <ul class="skip-links">
+    <li><a href="#main"> Skip to main content</a></li>
+    <li><a href="#nav"> Skip to navigation</a></li>
+  </ul>
+
+  <header  class="lightgray island-half" role="banner">
       <div class="grid grid-middle">
           <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
             <input type="checkbox" class="nav-check" id="nav-check">
             <label class="nav-label" for="nav-check">
             <img  src="images/toggle.svg" alt="open navigation">
             </label>
-            <nav class="nav">
+            <nav id="nav" class="nav">
               <ul class="list-group giga">
                 <li><a class="link-box white" href="index.html">Home</a></li>
                 <li><a class="link-box white"class="link-box"href="tour.html">Tour</a></li>

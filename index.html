@@ -16,15 +16,19 @@
 </head>
 <body>
 
-  <header  class="lightgray island-half">
+  <ul class="skip-links">
+    <li><a href="#main"> Skip to main content</a></li>
+    <li><a href="#nav"> Skip to navigation</a></li>
+  </ul>
+
+  <header  class="lightgray island-half" role="banner">
       <div class="grid grid-middle">
           <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-
             <input type="checkbox" class="nav-check" id="nav-check">
             <label class="nav-label" for="nav-check">
             <img  src="images/toggle.svg" alt="open navigation">
             </label>
-            <nav class="nav">
+            <nav id="nav" class="nav" role="navigation">
               <ul class="list-group giga">
                 <li><a class="link-box white" href="index.html">Home</a></li>
                 <li><a class="link-box white"class="link-box"href="tour.html">Tour</a></li>
@@ -39,21 +43,18 @@
       </div>
   </header>
 
-<main>
-<div class="banner1 island-double">
-    <h1 class="text-center">Cooking Kept Organized. Personalized.Accessible.</h1>
-    <p class="text-center">The perfect online cookbook.</p>
-  </div>
-
-  <div class="">
-  <li class="text-center island-half list-group"><a class="btn island-half" href="signup.html">Start Your Cookbook Today!</a></li>
+<main id="main" role="main">
+  <div class="banner1 island-double">
+    <h1 class="text-center push-0 white">Cooking Kept Organized. Personalized.Accessible.</h1>
+    <p class="text-center white">The perfect online cookbook.</p>
+    <li class="text-center list-group"><a class="btn island-half" href="signup.html">Start Your Cookbook Today!</a></li>
   </div>
 
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center island-half ">
           <h2>Tour</h2>
           <div class="embed embed--4by3">
-            <img class="embed__item img-flex pad-bottom island-half" src="images/homepagetour-icon.svg">
+            <img class="embed__item img-flex pad-bottom island-half" src="images/homepagetour-icon.svg" alt="">
           </div>
           <p class="text-center">Look at all we have to offer!</p>
 
@@ -63,7 +64,7 @@
     <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center island-half ">
           <h2>Pricing</h2>
           <div class="embed embed--4by3">
-          <img class="embed__item img-flex pad-bottom island-half"  src="images/homepagepricing-icon.svg">
+          <img class="embed__item img-flex pad-bottom island-half"  src="images/homepagepricing-icon.svg" alt="">
         </div>
         <p>Find the perfect plan for you!</p>
           <a class="btn" href="pricing.html"> Learn More</a>
@@ -75,7 +76,7 @@
       <li class="text-center island-half list-group"><a class="btn island-half" href="signup.html">Start Your Cookbook Today!</a></li>
     </div>
 </main>
-<footer class="lightgray">
+<footer class="lightgray" role="contentinfo">
 
 <p>©2015 VirtualCookbook. All Rights Reserved
 Privacy Policy • Terms of Use</p>
