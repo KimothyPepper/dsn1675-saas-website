@@ -6,6 +6,14 @@
   background-color: lightblue;
 }
 
+.lightbrown {
+  background-color: #c9ac93;
+}
+
+.orange {
+  background-color:#d7783a;
+}
+
 .banner1 {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
@@ -61,7 +69,7 @@ nav li {
 }
 
 .nav-check:checked ~ .nav-label {
-	background-color: grey;
+	background-color: none;
 }
 
 .nav-label {
