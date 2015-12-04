@@ -43,9 +43,9 @@
       </div>
   </header>
 
-<h1> Create an Account </h1>
+<h1 class="gutter push-0"> Create an Account </h1>
 
-<form class="island-double" action="https://formspree.io/kimmybeans@hotmail.com" method="post">
+<form class="gutter" action="https://formspree.io/kimmybeans@hotmail.com" method="post">
 
   <div>
     <label for="firstname">First Name</label>
@@ -64,13 +64,38 @@
 
   <div>
     <label for="password">Password</label>
-    <input id="password" type="password" name="password">
+    <input id="password" type="password" name="password" required>
   </div>
 
-<div class="grid">
+  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 pad-top pad-bottom">
+    <label for="year">Membership</label>
+    <select id="year" name="year">
+    <option>Free</option>
+    <option>$10 Monthly</option>
+    <option>$20 Monthly</option>
+   </select>
+  </div>
 
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-    <p> Expiry </p>
+
+  <fieldset >
+    <legend>Payment Method</legend>
+    <input id="visa" type="radio" name="payment">
+    <label for="visa"> Visa </label>
+
+    <input id="mastercard" type="radio" name="payment">
+    <label for="mastercard"> Mastercard</label>
+
+    <input id="paypal" type="radio" name="payment">
+    <label for="paypal"> Paypal </label>
+
+  </fieldset>
+</div>
+
+<div class="grid">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <p> Expiry </p>
+    </div>
+  <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4">
     <label for="month">Month</label>
     <select id="month" name="_month">
     <option>01</option>
@@ -88,8 +113,7 @@
    </select>
   </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-      <p> Year </p>
+    <div class="unit xs-3-4 s-3-4 m-3-4 l-3-4">
       <label for="year">Year</label>
       <select id="year" name="year">
       <option>2016</option>
@@ -103,27 +127,22 @@
     </div>
 </div>
 
-  <fieldset>
-    <legend>Payment Method</legend>
-    <input id="visa" type="radio" name="payment">
-    <label for="visa"> Visa </label>
-
-    <input id="mastercard" type="radio" name="payment">
-    <label for="mastercard"> Mastercard</label>
-
-    <input id="paypal" type="radio" name="payment">
-    <label for="paypal"> Paypal </label>
-
-  </fieldset>
-
   <div>
-    <label for="message">Message<label>
-    <textarea id="message" name="message"></textarea>
-
+    <label for="cardholder">Card Holder Name</label>
+    <input id="cardholder"  name="cardholder">
   </div>
 
   <div>
-    <button type="submit"> Submit </button>
+    <label for="cardnumber">Card Number</label>
+    <input class="width" id="cardnumber"  name="cardnumber">
+    <input class="width" id="cardnumber"  name="cardnumber">
+    <input class="width" id="cardnumber"  name="cardnumber">
+    <input class="width" id="cardnumber"  name="cardnumber">
+  </div>
+
+
+  <div class=" pad-top pad-bottom">
+    <button class="pointer" type="submit"> Submit </button>
   </div>
 
   <input type="hidden"  name="_next"
