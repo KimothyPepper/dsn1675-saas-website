@@ -14,16 +14,23 @@
   background-color:#d7783a;
 }
 .width {
-  width: 4em
+  width: 4em;
+}
+
+.paymentwidth {
+  width:  16em;
 }
 
 
 .banner1 {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/cuttingboard.jpg");
   background-repeat: no-repeat;
   background-size:100% auto; ;
   background-position: center;
 
+}
+.shadow {
+text-shadow:0 2px 10px black;
 }
 
 .banner2 {
